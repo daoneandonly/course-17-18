@@ -118,6 +118,10 @@ nav .assignment {
   color: black;
 }
 
+nav .assessment {
+  background-color: #ca2ffe;
+}
+
 nav .assignment[href^="https://github.com"] div::after {
   content: "";
   display: inline-block;
@@ -248,6 +252,10 @@ footer .image-link {
 .image-link:hover,
 .image-link:focus {
   opacity: 0.75;
+}
+
+main p {
+  text-align: center;
 }
 
 @media (min-width: 30em) {
